@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>EC | uehara</title>
+</head>
+<body>
+  <div id="loading">
+    <p>Lowding...</p>
+  </div>
+<header>
+<div class="inner">
+
+  <div>
+    <ul class="menu_container">
+      <li class="header_menu"><a href="top">TOPへ</a></li>
+      <li class="header_menu"><a href="login">ログイン</a></li>
+      <li class="header_menu"><a href="cart">カート</a></li>
+      <li class="header_menu"><a href="purchase">購入履歴</a></li>
+      <form>
+        <div class="search_btn">
+          <a href="#">XXXXXさんようこそ</a>
+          <input type="search" id="mySearch" name="q" placeholder="サイトを検索..." />
+          <button class="search">検索</button>
+        </div>
+      </form>
+    </ul>
+  </div>
+  <ul class="category">
+    <li><a href="#">カテゴリ1</a></li>
+    <li><a href="#">カテゴリ2</a></li>
+    <li><a href="#">カテゴリ3</a></li>
+    <li><a href="#">カテゴリ4</a></li>
+    <li><a href="#">カテゴリ5</a></li>
+    <li><a href="#">カテゴリ6</a></li>
+
+  </ul>
+
+</div>
+</header>
+<section class="thumbnail">
+
+
+<h1>画像</h1>
+<div id="photo">
+<div class="frame">
+
+  
+</div>
+<div class="arrowbtn">
+
+  <button class="prev"><</button> 
+  <button class="next">></button> 
+</div>
+
+</section>
+</div>
+<main>
+<article>
+
+  <aside>
+    <ul class="left_side">
+      <li><a>カテゴリ1</a></li>
+      <li><a>カテゴリ2</a></li>
+      <li><a>カテゴリ3</a></li>
+      <li><a>カテゴリ4</a></li>
+      <li><a>カテゴリ5</a></li>
+      <li><a>カテゴリ6</a></li>
+  
+ 
+    </ul>
+  </aside>
+  <section class="ranking">
+  <h2 class="title">ランキング</h2>
+  <div class="flex item">
+    <div>
+
+      <img src="./images/buntan.jpeg">
+      <p>文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明</p>
+      <p>文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明</p>
+      <p>文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明</p>
+      <p>文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明文旦の説明</p>
+    </div>
+     
+    <div>
+      <img src="./images/tosaduru.jpeg">
+     <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+     <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+     <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+     <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+    </div>
+    <div>
+      <img src="./images/buntan.jpeg">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, et impedit inventore quae est!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, et impedit inventore quae est!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, et impedit inventore quae est!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, et impedit inventore quae est!</p>
+    </div>
+    <div>
+      <img src="./images/tosaduru.jpeg">
+      <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+      <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+      <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+      <p>土佐鶴です土佐鶴のお酒をのんだらよっぱらいそうですね！</p>
+    </div>
+  </div>
+  </section>
+</article>
+</main>
+
+</body>
+<script src="main.js"></script>
+<style>
+.menu_container li a:first-child{
+ background:green;
+ border-radius: 10%;
+ transition: .2s;
+}
+.menu_container li a:first-child:hover{
+  opacity: 0.9;
+  font-weight: bold;
+
+}
+#loading{
+  background-color: #f5eeee;
+  position: fixed;
+  inset: 0;
+  place-items:center;
+  align-self: center;
+}
+#loading p{
+  font-size: 3rem;
+  text-align: center;
+  place-items:center;
+}
+
+
+
+.left_side{
+  padding-left: 12px;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.left_side a{
+  transition-duration: .7s;
+
+}
+.left_side a:hover{
+  transform: scale(1.01);
+  border-bottom:1px solid blue;
+}
+article{
+  width: 100%;
+  margin:0 auto;
+
+}
+
+.flex{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-content: center;
+}
+
+
+</style>
+</html>

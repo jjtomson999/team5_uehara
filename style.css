@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:radial-gradient(rgb(238, 236, 233),#deb887);
+  
+}
+li{
+  list-style-type: none;
+  white-space: nowrap;
+}
+a{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+img{
+  vertical-align: bottom;
+  cursor: pointer;
+  transition: .2s;
+  transition-duration: 1s;
+}
+img:hover{
+  transform: scale(1.04);
+  opacity: 0.8;
+}
+/* ここまで共通 */
+
+header{
+  width: 1200px;
+  margin: 0 auto;
+}
+.frame img{
+  height: 400px;
+}
+h1{
+  font-size: 18px;
+  
+}
+.search_btn{
+  margin-left: 12px;
+  border: 1px solid rgb(98, 117, 90);
+  background:#eeff;
+  border-radius: 1rem;
+}
+.search{
+  width: 80px;
+  transition: .2s;
+  margin-left: 8px;
+  
+}
+.search:hover{
+  color: green;
+}
+header{
+  height: 85px;
+
+  display:flex;
+  align-items: center;
+}
+header h1{
+  padding-left: 14px;
+  font-size: 0;  
+}
+header h1 img{
+  cursor: pointer;  
+}
+.header_menu a{
+  color: white;
+  margin-left: 10px;
+  background: rgb(122, 136, 122);
+  text-align: center;
+  background-color: rgb(147, 179, 168);
+}
+.thumbnail{
+  width: 100%;
+  margin: 0 auto;
+  border: 3px solid black;
+  text-align: center;
+}
+.thumbnail img{
+  display: block;
+  margin: 0 auto;
+}
+
+.inner{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+ul.menu_container{
+  display: flex;
+  justify-content:space-around;
+}
+
+ul.category{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  font-size: 12px;
+}
+
+.category li{
+  padding: 2px;
+
+}
+.category li a{
+  transition-duration: .3s;
+}
+.category li a:hover{
+ transform: scale(1.2);
+
+}
+article{
+  display: flex;
+  justify-content:flex-start;
+}
+ul.menu_container li{
+  padding-left: 24px;
+  font-size: 14px;
+  color: white;
+  
+}
+
+ul.menu_container li a{
+  text-decoration: none;
+  padding: 4px;
+}
+
+
+.next, .prev{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 250px;
+}
+.next{
+
+  right:15px;
+}
+.prev{
+  left: 15px;
+}
+
+.arrowbtn{
+  display: flex;
+  margin-bottom: 60px;
+  justify-content:space-evenly;
+}
+.ranking{
+  text-align: center;
+  width: 100%;
+
+  justify-content: center;
+}
+
+@media screen {
+  
+}
