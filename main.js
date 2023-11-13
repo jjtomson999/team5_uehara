@@ -29,7 +29,7 @@ window.addEventListener('load',()=>{
       fill:'forwards',
     },
   );
-  oadingScreen.animate(
+  loadingScreen.animate(
     {
       translate:['0 100vh','0 0','0 -100vh']
     },
