@@ -3,17 +3,7 @@ const loaderText=document.querySelector('#loading p');
 
 const loadingScreen=document.querySelector('#loading-screen');
 
-loadingScreen.animate(
-  {
-    translate:['0 100vh','0 0','0 -100vh']
-  },
-  {
-    duration:2000,
-    delay:800,
-    easing:'ease',
-    fill:'forwards',
-  }
-)
+
 
 
 window.addEventListener('load',()=>{
@@ -29,17 +19,7 @@ window.addEventListener('load',()=>{
       fill:'forwards',
     },
   );
-  loadingScreen.animate(
-    {
-      translate:['0 100vh','0 0','0 -100vh']
-    },
-    {
-      duration:2000,
-      delay:800,
-      easing:'ease',
-      fill:'forwards',
-    }
-  );
+ 
   loaderText.animate(
     [
     {
