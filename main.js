@@ -13,7 +13,7 @@ loadingScreen.animate(
     easing:'ease',
     fill:'forwards',
   }
-);
+)
 
 
 window.addEventListener('load',()=>{
@@ -28,6 +28,17 @@ window.addEventListener('load',()=>{
       easing:'ease',
       fill:'forwards',
     },
+  );
+  oadingScreen.animate(
+    {
+      translate:['0 100vh','0 0','0 -100vh']
+    },
+    {
+      duration:2000,
+      delay:800,
+      easing:'ease',
+      fill:'forwards',
+    }
   );
   loaderText.animate(
     [
